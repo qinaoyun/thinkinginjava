@@ -22,7 +22,7 @@ class WaterSource {
 
 public class SprinklerSystem {
     private String value1, value2, value3, value4;
-    WaterSource source;
+    WaterSource source = new WaterSource();
     int i;
     float f;
 
@@ -37,6 +37,7 @@ public class SprinklerSystem {
     }
 
     public static void main(String[] args) {
+        int j;
         SprinklerSystem x = new SprinklerSystem();
         x.print();
     }
